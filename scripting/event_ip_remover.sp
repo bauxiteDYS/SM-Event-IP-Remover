@@ -7,7 +7,7 @@ public Plugin myinfo = {
 	name = "Event IP remover",
 	description = "Disables broadcasting of player IP to clients for security",
 	author = "Anonymous",
-	version = "0.1.0",
+	version = "0.1.1",
 	url = "",
 };
 
