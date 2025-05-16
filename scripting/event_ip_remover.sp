@@ -23,5 +23,5 @@ public Action Event_PlayerConnectPre(Event event, const char[] name, bool dontBr
 	PrintToChatAll("%s has joined the game", playerName);
 	event.BroadcastDisabled = true;
 	
-	return Plugin_Handled;
+	return Plugin_Continue;
 }
